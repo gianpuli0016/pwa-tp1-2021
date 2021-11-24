@@ -18,7 +18,8 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= Html::a('Create Usuario', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
-    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+    <?php // echo $this->render('_search', ['model' => $searchModel]); 
+    ?>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -30,7 +31,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'username',
             'nombre',
             'apellido',
-            'password',
+            //'password',
             //'accessToken',
             //'authKey',
 
